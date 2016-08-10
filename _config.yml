@@ -63,7 +63,7 @@ analytics:
 author:
   name             : "Fabien Baradel"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Research intern at XRCE."
   location         : "Grenoble, France"
   email            : "fabien.baradel@gmail.com"
   uri              :
@@ -73,12 +73,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "github.com/fabienbaradel"
+  github           : "fabienbaradel"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://fr.linkedin.com/in/fabienbaradel"
+  linkedin         : "fabienbaradel"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
