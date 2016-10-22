@@ -3,7 +3,7 @@
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
 main:
   - title: "About Me"
-    url: /about/index.md
+    url: /about/
   
   - title: "Code"
     url: https://github.com/fabienbaradel
