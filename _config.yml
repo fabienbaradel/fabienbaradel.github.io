@@ -203,6 +203,7 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+include: ["_pages"]
 
 # HTML Compression
 # - http://jch.penibelst.de/
