@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Title"
+title                    : "fabien's website"
 title_separator          : "-"
 name                     : "Fabien Baradel"
-description              : "An amazing website."
+description              : "little website about my research."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -39,7 +39,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : &twitter "fabienbaradel"
 facebook:
   username               :
   app_id                 :
@@ -84,7 +84,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : =twitter
   vine             :
   weibo            :
   xing             :
