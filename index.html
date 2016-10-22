@@ -5,7 +5,13 @@ author_profile: true
 
 {% include base_path %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Welcome to my website" }}</h3>
+
+I am Fabien, a first year PhD Candidate at ENSAI Lyon and I belong to the LIRIS lab.
+My research focuses on machine learning and computer vision.
+I am supervised by Christian Wolf and Julien Mille.
+
+Check out about me for more information.
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
