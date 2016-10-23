@@ -9,4 +9,4 @@ layout: archive
 author_profile: true
 ---
 
-bio
+Coming soon...
