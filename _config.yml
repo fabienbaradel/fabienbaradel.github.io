@@ -63,7 +63,7 @@ analytics:
 author:
   name             : "Fabien Baradel"
   avatar           : "bio-photo.jpg"
-  bio              : "<b>PhD Candidate</b> <br/> &#9702; Machine Learning <br/> &#9702; Computer Vision"
+  bio              : "<b>PhD Candidate</b> <br/>Machine Learning <br/>Computer Vision"
   location         : "Lyon, France"
   email            : "fabien.baradel@insa-lyon.fr"
   uri              :
