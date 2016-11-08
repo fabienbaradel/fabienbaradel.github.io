@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "fabien's website"
+title                    : "fabien baradel"
 title_separator          : "-"
 name                     : "Fabien Baradel"
-description              : "little website about my research."
+description              : "fabien baradel deep learning machine learning computer vision ensai insa liris"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -63,7 +63,7 @@ analytics:
 author:
   name             : "Fabien Baradel"
   avatar           : "bio-photo.jpg"
-  bio              : "<b>PhD Candidate</b> <br/>Machine Learning <br/>Computer Vision"
+  bio              : "<b>PhD Candidate</b> <br/>Deep Learning <br/>Computer Vision <br/>Machine Learning"
   location         : "Lyon, France"
   email            : "fabien.baradel@insa-lyon.fr"
   uri              :
