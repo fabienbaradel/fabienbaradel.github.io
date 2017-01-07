@@ -7,7 +7,7 @@ author_profile: true
 ---
 
 ### Introduction to Deep Learning with Tensorflow
-- ** *Seminar - ENSAI SID - Rennes, France - 13/01/2017* **
+- **Seminar - ENSAI SID - Rennes, France - 13/01/2017**
 - Materials: [slides]() - [codes](https://github.com/fabienbaradel/Tensorflow-tutorials/)
 - Exercise corrections will be pushed on the Github repository after the seminar.
 The .iso file (with all dependencies for the seminar already installed) can be download from [here]().
