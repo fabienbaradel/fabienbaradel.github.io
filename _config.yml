@@ -205,6 +205,8 @@ tag_archive:
 
 include: ["_pages"]
 
+permalink: /teaching/
+
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
