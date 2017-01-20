@@ -39,7 +39,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : 
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -65,7 +65,7 @@ author:
   avatar           : "bio-photo.jpg"
   bio              : "<b>PhD Candidate</b> <br/>Deep Learning <br/>Computer Vision <br/>Machine Learning"
   location         : "Lyon, France"
-  email            : "fabien.baradel@insa-lyon.fr"
+  email            : "{first name}.{last name}[AT]insa-lyon.fr"
   uri              :
   bitbucket        :
   codepen          :
