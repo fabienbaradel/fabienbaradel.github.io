@@ -2,7 +2,7 @@
 #- title: "Sample Navigation Link"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
 main:
-  - title: "Resume"
+  - title: "CV"
     url: /images/academic_resume.pdf
 
   - title: "Code"
