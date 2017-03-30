@@ -121,6 +121,7 @@ li {
 
 
 
+
   </style>
 </head>
 
@@ -132,49 +133,50 @@ li {
     <br>
   </div>
 
-    <p id="authors">
+  <p id="authors">
       <span><a href="https://fabienbaradel.github.io"><img id="image" src="/images/bio-photo.jpg"
                                                            height="100"></img><br>Fabien Baradel</a><br>INSA-Lyon</span>
-      <span><a href="http://liris.cnrs.fr/christian.wolf/"><img id="image" src="/images/cwolf.jpg"
-                                                                height="100"></img><br>Christian Wolf</a><br>INSA-Lyon</span>
-      <span><a href="http://liris.cnrs.fr/julien.mille/"><img id="image" src="/images/jmille.jpg"
-                                                              height="100"></img><br>Julien Mille</a><br>INSA Centre Val de Loire</span><br
-      clear="both">
-      <br>
-      <a href="https://arxiv.org/abs/1703.10106">arXiv:1703.10106</a>
-    </p>
-
+    <span><a href="http://liris.cnrs.fr/christian.wolf/"><img id="image" src="/images/cwolf.jpg"
+                                                              height="100"></img><br>Christian Wolf</a><br>INSA-Lyon</span>
+    <span><a href="http://liris.cnrs.fr/julien.mille/"><img id="image" src="/images/jmille.jpg"
+                                                            height="100"></img><br>Julien Mille</a><br>INSA Centre Val de Loire</span><br
+    clear="both">
     <br>
+    <a href="https://arxiv.org/abs/1703.10106">arXiv:1703.10106</a>
+  </p>
 
-    <h2>Abstract</h2>
+  <br>
 
-    <p>
-      We address human action recognition from multi-modal video data involving articulated pose and RGB frames and
-      propose a two-stream approach.
-      The pose stream is processed with a convolutional model taking as input a 3D tensor holding data from a
-      sub-sequence. A specific joint ordering, which respects the topology of the human body, ensures that different
-      convolutional layers correspond to meaningful levels of abstraction.
-      The raw RGB stream is handled by a spatio-temporal soft-attention mechanism conditioned on features from the pose
-      network. An LSTM network receives input from a set of image locations at each instant.
-      A trainable glimpse sensor extracts features on a set of predefined locations specified by the pose stream, namely
-      the 4 hands of the two people involved in the activity.
-      Appearance features give important cues on hand motion and on objects held in each hand. We show that it is of
-      high
-      interest to shift the attention to different hands at different time steps depending on the activity
-      itself.Finally
-      a temporal attention mechanism learns how to fuse LSTM features over time. We evaluate the method on 3 datasets.
-      State-of-the-art results are achieved on the largest dataset for human activity recognition, namely NTU-RGB+D, as
-      well as on the SBU Kinect Interaction dataset. Performance close to state-of-the-art is achieved on the smaller MSR Daily Activity 3D
-      dataset.
-    </p>
+  <h2>Abstract</h2>
+
+  <p>
+    We address human action recognition from multi-modal video data involving articulated pose and RGB frames and
+    propose a two-stream approach.
+    The pose stream is processed with a convolutional model taking as input a 3D tensor holding data from a
+    sub-sequence. A specific joint ordering, which respects the topology of the human body, ensures that different
+    convolutional layers correspond to meaningful levels of abstraction.
+    The raw RGB stream is handled by a spatio-temporal soft-attention mechanism conditioned on features from the pose
+    network. An LSTM network receives input from a set of image locations at each instant.
+    A trainable glimpse sensor extracts features on a set of predefined locations specified by the pose stream, namely
+    the 4 hands of the two people involved in the activity.
+    Appearance features give important cues on hand motion and on objects held in each hand. We show that it is of
+    high
+    interest to shift the attention to different hands at different time steps depending on the activity
+    itself.Finally
+    a temporal attention mechanism learns how to fuse LSTM features over time. We evaluate the method on 3 datasets.
+    State-of-the-art results are achieved on the largest dataset for human activity recognition, namely NTU-RGB+D, as
+    well as on the SBU Kinect Interaction dataset. Performance close to state-of-the-art is achieved on the smaller MSR
+    Daily Activity 3D
+    dataset.
+  </p>
 
 
-    <center>
-      <a href="https://arxiv.org/pdf/1703.10106.pdf">
-        <strong>Download Paper</strong>
-      </a>
-    </center>
-    <br>
+  <center>
+    <a href="https://arxiv.org/pdf/1703.10106.pdf">
+      <strong>Download Paper</strong>
+    </a>
+  </center>
+  <br>
 </div>
 
 <hr/>
@@ -257,7 +259,8 @@ li {
   <h2>Acknowledgements</h2>
 
   <p>
-    This work was supported by the ANR/NSREC DeepVision project.
+    This work was supported by the <a href="http://liris.cnrs.fr/deepvis/wiki/doku.php?id=start#publications">ANR/NSREC
+    DeepVision project</a>
   </p>
 
 </div>
