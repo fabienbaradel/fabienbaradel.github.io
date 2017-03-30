@@ -2,11 +2,15 @@
 #- title: "Sample Navigation Link"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
 main:
+
+  - title: "About"
+    url: /
+
+  - title: "Publications"
+    url: /publications/
+
   - title: "CV"
     url: /images/academic_resume.pdf
-
-  - title: "Github"
-    url: https://github.com/fabienbaradel
 
   - title: "Teaching"
     url: /teaching/

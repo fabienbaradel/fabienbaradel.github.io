@@ -6,23 +6,81 @@ author_profile: true
 {% include base_path %}
 <head>
   <title>Fabien Baradel</title>
-<STYLE>
+  <style>
+@media screen and (max-device-width: 480px){
+  body{
+      -webkit-text-size-adjust: 100%;
+        }
+        }
+p { font-size : 17px; }
+h1 { padding : 0; margin : 0; font-size : 38px; }
+h2 { font-size : 28px; margin : 0; padding : 0; }
+h3 { margin : 24px 0; }
+body { padding : 0; font-family: 'Lato', sans-serif; font-size : 17px; }
+.title { width : 800px; margin : 20px auto; color : #000; margin-top : 30px; }
+.title a, .title a:visited {position : relative;}
+.container { margin : 1px auto; border-radius: 20px; padding : 15px; padding-bottom : 0; clear:both; }
+#bio { height : 250px; position: relative; float : left; width : 400px; }
+#me { border : 0 solid black; margin-bottom : 30px; border-radius : 10px; }
+#sidebar { margin-left:80px; margin-right : 50px; border : 0 solid black; float : left; margin-bottom : 0;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a, a:visited { color : #3366cc; }
+.publogo { margin-right : 20px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 3px; }
+.publication-short { padding-left : 120px; }
+.publication p { height : 100px; padding-top : 0px;}
+.publication-short p { height : 0; }
+.publication strong a { color : #000; text-decoration  :none; }
+.publication strong a:hover { text-decoration : underline; }
+.publication .links { position : relative; top : 15px }
+.publication .links a { margin-right : 15px; }
+.publication .links strong { margin-right : 20px; }
+.publication img { border-radius : 5px; }
+.press { display : inline-block; padding : 5px; height : 40px;}
+.press a img { border : 3px solid #fff; border-radius : 10px; padding : 4px; }
+.press a img:hover { border-color : #3366cc; }
+.talk { display : inline-block; text-align : center; padding : 0 15px;}
+.talk img { margin-bottom : 5px; }
+.talk a img { border : 3px solid #fff; border-radius : 10px; padding : 5px; }
+.talk a img:hover { border-color : #3366cc; }
+.codelogo { margin-right : 50px; float : left; border : 0;}
+.code { padding-bottom : 10px; vertical-align :middle; height : 150px !important; width : 550px;}
+.code .download a { display : block; margin : 0 30px 0 0; float : left;}
+.code strong { display : block; padding-bottom : 10px;}
+.code strong a { color : #000; }
+.code img { border-radius : 5px; }
+.external a { margin : 0 10px; }
+.external a.first { margin : 0 10px 0 0; }
+#news li { padding : 1px 0; }
+#news li li { padding : 1px 0; }
+#news li:last-child { padding-bottom : 0; }
+#news li:last-child li:last-child { padding-bottom : 0; }
+#news strong a { color : black; }
+.new { background-color : #cc0000; color:white; border-radius : 5px; padding : 2px; font-size : 14px; margin : 0 10px;}
+
+  </style>
+  <STYLE>
 a:hover
 {
 text-decoration: underline;
 color: #224061;
-}</STYLE>
+}
 
-<!--<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  </STYLE>
 
-  ga('create', 'UA-86789415-1', 'auto');
-  ga('send', 'pageview');
-</script>
--->
+  <!--<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-86789415-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  -->
+
+
 </head>
 
 
@@ -30,30 +88,48 @@ color: #224061;
 <br />
 -->
 
+<div class="container">
+<h2 align="center" >News</h2>
 
-<H2 align="center"> News</H2>
-<P align="center"> <span style="color:tomato"> <B>[13-01-2017]: </B> </span> <span style="color:black"> <a href="https://fabienbaradel.github.io/teaching/"><B>Seminar at ENSAI on "Introduction to Deep Learning with Tensorflow" <br />
-(slides and codes available!)  </B></a> </span>
-<br />
-<br />
+<ul id="news">
+
+    <li> <span style="color:tomato"> <B>[29-03-2017]: </B> </span> <span style="color:black"> <span class="new">New!</span> <a href="/pose_rgb_attention_human_action/"><B> arXiv paper: "Pose-conditioned Spatio-Temporal Attention for Human Action Recognition"  </B></a> </span> </li>
+    <li> <span style="color:tomato"> <B>[13-01-2017]: </B> </span> <span style="color:black"> <a href="/teaching/">Seminar at ENSAI on "Introduction to Deep Learning with Tensorflow" </a> </span> </li>
+
+</ul>
+
+</div>
 
 
+
+<div class="container">
 <H2 align="center"> Bio</H2>
-I am a first year PhD Candidate at <a href="https://www.insa-lyon.fr"><B>INSA Lyon</B></a> and I am working in the <a href="https://liris.cnrs.fr/?set_language=fr"><B>LIRIS</B> lab</a> (Imagine team).
+  <p>
+I am a first year PhD Candidate at <a href="https://www.insa-lyon.fr"><B>INSA Lyon</B></a> and I am working in the <a
+  href="https://liris.cnrs.fr/?set_language=fr"><B>LIRIS</B> lab</a> (Imagine team).
 My research focus is on deep learning and computer vision. I am particulary interested in applying deep learning for video understanding.
-My PhD topic is "<B><I>Deep learning for human understanding: gestures, activities, poses</I></B>". I have a funding from the ANR/NSERC project "Deep Vision" which involves 4 parteners: INSA Lyon, LIP6, University of Guelph (Canada) and Simon Fraser University (Canada).
-I am supervised by <a href="http://liris.cnrs.fr/christian.wolf/"><B>Christian Wolf</B></a> and <a href="http://liris.cnrs.fr/julien.mille/"><B>Julien Mille</B></a>.
-<br /> <br />
-I received an Engineer's degree from <a href="http://www.ensai.fr"><B>ENSAI</B></a> with a major in <I>Big Data - Data Science</I>. I also have a BSc in Economics from Paris Dauphine University and a BSc in Applied Mathematics from Grenoble Alpes University.
-I did a 6 months internship at <a href="http://www.xrce.xerox.com/"><B>Xerox Research Centre Europe</B></a> in Grenoble where I worked on <I>Unsupervised Domain Adaptation</I> for object recognition under the supervision of <a href="http://www.xrce.xerox.com/About-XRCE/People/Boris-Chidlovskii">Boris Chidlovskii</a> and <a href="http://www.xrce.xerox.com/About-XRCE/People/Gabriela-Csurka">Gabriela Csurka</a>.
-<br /> <br />
+My PhD topic is "<B><I>Deep learning for human understanding: gestures, activities,
+  poses</I></B>". I have a funding from the ANR/NSERC project "Deep Vision" which involves 4 parteners: INSA Lyon, LIP6, University of Guelph (Canada) and Simon Fraser University (Canada).
+I am supervised by <a href="http://liris.cnrs.fr/christian.wolf/"><B>Christian Wolf</B></a> and <a
+  href="http://liris.cnrs.fr/julien.mille/"><B>Julien Mille</B></a>.
+<br/> <br/>
+I received an Engineer's degree from <a href="http://www.ensai.fr"><B>ENSAI</B></a> with a major in <I>Big Data - Data
+  Science</I>. I also have a BSc in Economics from Paris Dauphine University and a BSc in Applied Mathematics from Grenoble Alpes University.
+I did a 6 months internship at <a href="http://www.xrce.xerox.com/"><B>Xerox Research Centre
+  Europe</B></a> in Grenoble where I worked on <I>Unsupervised Domain
+  Adaptation</I> for object recognition under the supervision of <a
+  href="http://www.xrce.xerox.com/About-XRCE/People/Boris-Chidlovskii">Boris Chidlovskii</a> and <a
+  href="http://www.xrce.xerox.com/About-XRCE/People/Gabriela-Csurka">Gabriela Csurka</a>.
+  </p>
+<br/> <br/>
+  </div>
 
- <B><U>Research interests:</U></B>
-<br />
+<B><U>Research interests:</U></B>
+<br/>
 Deep learning, video understanting, action recognition, reinforcement learning, attention models, domain adaptation, generative model, large scale machine learning.
 
 {% for post in paginator.posts %}
-  {% include archive-single.html %}
+{% include archive-single.html %}
 {% endfor %}
 
 {% include paginator.html %}

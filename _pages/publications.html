@@ -1,0 +1,106 @@
+---
+title: "Publications"
+sitemap: false
+permalink: /publications/
+layout: archive
+author_profile: true
+---
+{% include base_path %}
+
+
+<style>
+@media screen and (max-device-width: 480px){
+  body{
+      -webkit-text-size-adjust: 100%;
+        }
+        }
+p { font-size : 17px; }
+h1 { padding : 0; margin : 0; font-size : 38px; }
+h2 { font-size : 28px; margin : 0; padding : 0; }
+h3 { margin : 24px 0; }
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+body { padding : 0; font-family: 'Lato', sans-serif; font-size : 17px; }
+.title { width : 900px; margin : 20px auto; color : #000; margin-top : 30px; }
+.title a, .title a:visited {position : relative;}
+.container { margin : 1px auto; border-radius: 20px; padding : 15px; padding-bottom : 0; clear:both; }
+#bio { height : 250px; position: relative; float : left; width : 400px; }
+#me { border : 0 solid black; margin-bottom : 30px; border-radius : 10px; }
+#sidebar { margin-left:80px; margin-right : 50px; border : 0 solid black; float : left; margin-bottom : 0;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a, a:visited { color : #3366cc; }
+.publogo { margin-right : 20px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 3px; }
+.publication-short { padding-left : 120px; }
+.publication p { height : 100px; padding-top : 0px;}
+.publication-short p { height : 0; }
+.publication strong a { color : #000; text-decoration  :none; }
+.publication strong a:hover { text-decoration : underline; }
+.publication .links { position : relative; top : 15px }
+.publication .links a { margin-right : 15px; }
+.publication .links strong { margin-right : 20px; }
+.publication img { border-radius : 5px; }
+.press { display : inline-block; padding : 5px; height : 40px;}
+.press a img { border : 3px solid #fff; border-radius : 10px; padding : 4px; }
+.press a img:hover { border-color : #3366cc; }
+.talk { display : inline-block; text-align : center; padding : 0 15px;}
+.talk img { margin-bottom : 5px; }
+.talk a img { border : 3px solid #fff; border-radius : 10px; padding : 5px; }
+.talk a img:hover { border-color : #3366cc; }
+.codelogo { margin-right : 50px; float : left; border : 0;}
+.code { padding-bottom : 10px; vertical-align :middle; height : 150px !important; width : 550px;}
+.code .download a { display : block; margin : 0 30px 0 0; float : left;}
+.code strong { display : block; padding-bottom : 10px;}
+.code strong a { color : #000; }
+.code img { border-radius : 5px; }
+.external a { margin : 0 10px; }
+.external a.first { margin : 0 10px 0 0; }
+#news li { padding : 1px 0; }
+#news li li { padding : 1px 0; }
+#news li:last-child { padding-bottom : 0; }
+#news li:last-child li:last-child { padding-bottom : 0; }
+#news strong a { color : black; }
+.new { background-color : #cc0000; color:white; border-radius : 5px; padding : 2px; font-size : 14px; margin : 0 10px;}
+
+
+
+</style>
+</br></br></br>
+
+<div class="publication">
+  <hr/>
+  <a href="/pose_rgb_attention_human_action/"><img src="/_pages/gif/attention_ntu.gif" class="publogo" width="200"></a>
+  <h3><strong><a href="/pose_rgb_attention_human_action/">Pose-conditioned Spatio-Temporal Attention for Human Action
+    Recognition</a></strong>
+  </h3>
+  <p>
+    We introduce an attention-based mechanism on RGB videos.
+    Given pose features from 3D body joints coordinates our model is able to pay attention at the most discriminative
+    parts of the RGB frames.
+    We report state-of-the-art performance on the largest human action recognition dataset (NTU RGB+D dataset ~ 57'000
+    videos) using skeleton data and RGB frames.
+    We also successfully perform transfer learning on tiny dataset. <br>
+    <span style="color:firebrick"> <strong>Fabien Baradel</strong>, <a href="http://liris.cnrs.fr/christian.wolf/">Christian Wolf</a>, <a
+      href="http://liris.cnrs.fr/julien.mille/">Julien Mille</a> </span><br>
+    <span style="color:green"> <em><a href="https://arxiv.org/abs/1703.10106">
+        arXiv:1703.10106</a></em></span><br>
+    <span class="links"><a href="https://arxiv.org/pdf/1703.10106.pdf">Paper</a> <a
+      href="/pose_rgb_attention_human_action/">Project Page</a> <a
+      href="https://youtu.be/kGLGgH_VAZw">Youtube Video</a> </span>
+  </p>
+</div>
+
+
+{% for post in paginator.posts %}
+{% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
+
