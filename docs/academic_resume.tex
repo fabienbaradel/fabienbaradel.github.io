@@ -1,0 +1,171 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{color}
+\renewcommand\labelitemi{\normalfont\bfseries --}
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Fabien Baradel} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+\moveleft.5\hoffset\centerline{Ph.D. Candidate, INSA-Lyon} % Your address
+\moveleft.5\hoffset\centerline{Email: \href{fabien.baradel@liris.cnrs.fr}{fabien.baradel@liris.cnrs.fr}}
+\moveleft.5\hoffset\centerline{Web: \href{fabienbaradel.github.io}{fabienbaradel.github.io}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{\large Research Interests}  
+Machine Learning, Deep Learning, Computer Vision, Reinforcement Learning
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\large Education}
+\textbf{INSA-Lyon} \hfill Lyon, France \hfill October 2016 - Present \\
+Ph.D., Computer Science
+\begin{itemize}
+\item  Thesis: {\sl Deep Learning for Human Understanding: poses, gestures, activities}
+\item  Supervisors: Christian Wolf - Julien Mille
+\end{itemize}
+
+
+\textbf{ENSAI} \hfill Rennes, France \hfill September 2013 - June 2016 \\
+M.Sc, Statistics \& Computer Science
+\begin{itemize}
+\item Suma Cum Laude (top of class) - High Honors
+\item "Diplôme d'ingénieur" from the National School of Statistics and Data Analysis
+\item Top French engineering school in Data Science
+\end{itemize}
+
+\textbf{University of Warwick} \hfill Conventry, UK \hfill January 2015 - June 2015 \\
+M.Sc, Statistics
+\begin{itemize}
+\item Erasmus Mundus semester exchange
+\end{itemize}
+
+\textbf{University of Paris Dauphine} \hfill Paris, France \hfill January 2015 - June 2015 \\
+B.Sc, Applied Economics
+\begin{itemize}
+\item Double agreement with ENSAI
+\end{itemize}
+
+\textbf{University of Grenoble Alps} \hfill Grenoble, France \hfill September 2010 - June 2013 \\
+B.Sc, Applied Mathematics
+\begin{itemize}
+\item Suma Cum Laude (top of class) - High Honors
+\end{itemize}
+ 
+%----------------------------------------------------------------------------------------
+%	Technology SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\large Work Experience} 
+
+\textbf{LIRIS} \hfill Lyon, France \hfill October 2016 - Present \\
+Graduate Research Assistant
+\begin{itemize}
+\item \textit{Lyon computer science lab}
+\item Research on computer vision and machine learning with a focus on human activity recognition, multi-modality fusion, video understanding
+\item Involved in robotic projects
+\item Advisor: Christian Wolf
+\end{itemize}
+
+\textbf{XRCE} \hfill Grenoble, France \hfill March 2016 - September 2016 \\
+Research Intern
+\begin{itemize}
+\item \textit{Xerox Research Centre Europe}
+\item Subject: \textit{Unsupervised domain adaptation for image recognition}
+\item Two papers under review \& one U.S. Patent accepted
+\item Advisors: Boris Chidlovski - Gabriela Csurka
+\end{itemize}
+
+\textbf{LICIT - IFSTTAR} \hfill Lyon, France \hfill June 2015 - August 2015 \\
+Research Intern
+\begin{itemize}
+\item Subject: \textit{Machine Learning for road traffic forecasting}
+\item Advisor: Romain Billot
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+
+\section{\large Publications} 
+1. Fabien Baradel, Christian Wolf, Julien Mille. "Pose-conditioned Spatio-Temporal Attention for Human Action Recognition" \textit{In submission to ICCV, to appear on arXiv}. 2017.
+\begin{itemize}
+\item State-of-the-art results on NTU RGB+D dataset (largest dataset for human action recognition)
+\item Transfer Learning on tiny datasets (state-of-the-art results on SBU Kinect Interaction dataset)
+\end{itemize}
+2. One paper under review at ICCV. 2017.\\
+3. One paper under review at IJCAI. 2017.
+%2. Gabriela Csurka, Fabien Baradel, Boris Chidlosvkii, Stéphane Clinchant.  \textit{In submission to ICCV}. 2016 \\
+%3. Fabien Baradel, Boris Chidlosvkii, Gabriela Csurka.  \textit{In submission to IJCAI}. 2017
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\section{\large Teaching Experience} 
+\textbf{ENSAI} \hfill Rennes, France \hfill January 2017 \\
+Teaching Assistant
+\begin{itemize}
+\item Seminars: \textit{Introduction to Deep Learning with Tensorflow}
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\section{\large Awards and Honors} 
+ANR/NSERC Ph.D. Fellowship - DeepVision project \\
+Erasmus Mundus exchange program scholarship
+
+%----------------------------------------------------------------------------------------
+
+\section{\large Computer Skills} 
+Python, Java, C, C++, SQL, PHP, R, SAS \\
+Tensorflow, Torch, \LaTeX, Linux, Mac, HTML, CSS \\
+
+\end{resume}
+\end{document}

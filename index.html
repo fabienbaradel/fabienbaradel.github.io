@@ -1,136 +1,307 @@
----
-layout: archive
-author_profile: true
----
-
-{% include base_path %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
 <head>
-  <title>Fabien Baradel</title>
-  <style>
-@media screen and (max-device-width: 480px){
-  body{
-      -webkit-text-size-adjust: 100%;
-        }
-        }
-p { font-size : 17px; }
-h1 { padding : 0; margin : 0; font-size : 38px; }
-h2 { font-size : 28px; margin : 0; padding : 0; }
-h3 { margin : 24px 0; }
-body { padding : 0; font-family: 'Lato', sans-serif; font-size : 17px; }
-.title { width : 800px; margin : 20px auto; color : #000; margin-top : 30px; }
-.title a, .title a:visited {position : relative;}
-.container { margin : 1px auto; border-radius: 20px; padding : 15px; padding-bottom : 0; clear:both; }
-#bio { height : 250px; position: relative; float : left; width : 400px; }
-#me { border : 0 solid black; margin-bottom : 30px; border-radius : 10px; }
-#sidebar { margin-left:80px; margin-right : 50px; border : 0 solid black; float : left; margin-bottom : 0;}
-a { text-decoration : none; }
-a:hover { text-decoration : underline; }
-a, a:visited { color : #3366cc; }
-.publogo { margin-right : 20px; float : left; border : 0;}
-.publication { clear : left; padding-bottom : 3px; }
-.publication-short { padding-left : 120px; }
-.publication p { height : 100px; padding-top : 0px;}
-.publication-short p { height : 0; }
-.publication strong a { color : #000; text-decoration  :none; }
-.publication strong a:hover { text-decoration : underline; }
-.publication .links { position : relative; top : 15px }
-.publication .links a { margin-right : 15px; }
-.publication .links strong { margin-right : 20px; }
-.publication img { border-radius : 5px; }
-.press { display : inline-block; padding : 5px; height : 40px;}
-.press a img { border : 3px solid #fff; border-radius : 10px; padding : 4px; }
-.press a img:hover { border-color : #3366cc; }
-.talk { display : inline-block; text-align : center; padding : 0 15px;}
-.talk img { margin-bottom : 5px; }
-.talk a img { border : 3px solid #fff; border-radius : 10px; padding : 5px; }
-.talk a img:hover { border-color : #3366cc; }
-.codelogo { margin-right : 50px; float : left; border : 0;}
-.code { padding-bottom : 10px; vertical-align :middle; height : 150px !important; width : 550px;}
-.code .download a { display : block; margin : 0 30px 0 0; float : left;}
-.code strong { display : block; padding-bottom : 10px;}
-.code strong a { color : #000; }
-.code img { border-radius : 5px; }
-.external a { margin : 0 10px; }
-.external a.first { margin : 0 10px 0 0; }
-#news li { padding : 1px 0; }
-#news li li { padding : 1px 0; }
-#news li:last-child { padding-bottom : 0; }
-#news li:last-child li:last-child { padding-bottom : 0; }
-#news strong a { color : black; }
-.new { background-color : #cc0000; color:white; border-radius : 5px; padding : 2px; font-size : 14px; margin : 0 10px;}
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+    .new {
+    background-color : #cc0000; color:white; border-radius : 5px; padding :1px; font-size : 14px; margin : 0 5px;}
+
 
   </style>
-  <STYLE>
-a:hover
-{
-text-decoration: underline;
-color: #224061;
-}
-
-  </STYLE>
-
-  <!--<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-86789415-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  -->
-
-
+  <link rel="icon" type="image/png" href="seal_icon.png">
+  <title>Fabien Baradel</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
+<body>
+<table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="67%" valign="middle">
+            <p align="center">
+              <name>Fabien Baradel</name>
+            </p>
+
+            <!-- ######## ABSTRACT #########-->
+
+            <p>I am a first year PhD Candidate at <a href="https://www.insa-lyon.fr">INSA Lyon</a> - <a
+              href="https://liris.cnrs.fr/?set_language=fr">LIRIS</a> working on <strong><font color="red">deep learning</font></strong> and <strong><font color="red">computer vision</font></strong>.
+              My supervisors are <a href="http://liris.cnrs.fr/christian.wolf/">Christian Wolf</a> and <a
+                href="http://liris.cnrs.fr/julien.mille/">Julien Mille</a>.
+              <br>
+              My PhD thesis title is <strong>"Deep Learning for Human Understanding: poses, gestures, activities"</strong> and is funded by the ANR/NSREC DeepVision project.
+            </p>
+            <p>I received my Engineer's degree (MSc) from <a href="http://www.ensai.fr">ENSAI</a> with a major in Big Data - Data Science.
+              Previously I've been intern at <a href="http://www.xrce.xerox.com/">Xerox Research Centre Europe</a>.
+
+            </p>
 
 
-<!--<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].welcom_to_my_website | default: "Welcome to my website" }}</h3>
-<br />
--->
+            <!-- ######## INFO  #########-->
 
-<div class="container">
-<h2 align="center" >News</h2>
+            <p align=center>
+              <a href="mailto:fabien.baradel@liris.cnrs.fr">Email</a> &nbsp/&nbsp
+              <a href="./docs/academic_resume.pdf">CV</a> &nbsp/&nbsp
+              <a href="https://github.com/fabienbaradel">Github</a> &nbsp/&nbsp
+              <a href="http://www.linkedin.com/in/fabienbaradel/"> LinkedIn </a> &nbsp/&nbsp
+              <a href="https://twitter.com/fabienbaradel">Twitter</a>
+            </p>
+          </td>
+          <td width="33%">
+            <img src="./images/oval-bio-photo.png">
+          </td>
+        </tr>
+      </table>
 
-<ul id="news">
+      <!-- ######## NEWS  #########-->
 
-    <li> <span style="color:tomato"> <B>[29-03-2017]: </B> </span> <span style="color:black"> <span class="new">New!</span> <a href="/pose_rgb_attention_human_action/"><B> arXiv paper: "Pose-conditioned Spatio-Temporal Attention for Human Action Recognition"  </B></a> </span> </li>
-    <li> <span style="color:tomato"> <B>[13-01-2017]: </B> </span> <span style="color:black"> <a href="/teaching/">Seminar at ENSAI on "Introduction to Deep Learning with Tensorflow" </a> </span> </li>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tbody>
+        <tr>
+          <td width="100%" valign="middle">
+            <heading id="news">News</heading>
+            <ul>
+              <li>July 2017: I am spending the summer at University of Guelph under direction of <a
+                href="http://www.uoguelph.ca/~gwtaylor/">Graham Taylor</a>
+              </li>
+              <li>June 2017: I am participating at the <a
+                href="https://mila.umontreal.ca/en/cours/deep-learning-summer-school-2017/">MILA Deep & Reinforcement
+                Learning Summer School</a> in Montreal!
+              </li>
+              <li>March 2017: New arXiv paper! <a href="./pose_rgb_attention_human_action"><B>
+                "Pose-conditioned Spatio-Temporal Attention for Human Action Recognition" </B></a> </span>
+              </li>
+              <li>January 2017: Seminar on "Introduction to Deep Learning with Tensorflow" at ENSAI
+              </li>
+            </ul>
+          </td>
+        </tr>
+        </tbody>
+      </table>
 
-</ul>
 
-</div>
+      <!-- ######## RESEARCH INTERESTS  #########-->
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="100%" valign="middle">
+            <heading>Research</heading>
+            <p>
+              I'm interested in machine learning, deep learning, computer vision and domain adaptation.
+              My work focuses on video understanding and specialy human activities.
+              I aim to develop new methods for extracting spatio-temporal patterns.
+              I am also interested about theoritical aspects in machine learning.
+            </p>
+          </td>
+        </tr>
+      </table>
+
+
+      <!-- ######## PAPERS #########-->
+
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+        <tbody>
+
+
+        <tr>
+          <td width="25%"><img src="images/attention_ntu.gif" alt="blind-date" width="160" height="160"></td>
+          <td width="75%" valign="top">
+            <p>
+              <a href="https://arxiv.org/pdf/1703.10106.pdf">
+                <papertitle>Pose-conditioned Spatio-Temporal Attention for Human Action Recognition</papertitle>
+              </a>
+              <br>
+              <strong>Fabien Baradel</strong>,
+              <a href="http://liris.cnrs.fr/christian.wolf/">Christian Wolf</a>,
+              <a href="http://liris.cnrs.fr/julien.mille/">Julien Mille</a>
+              <br>
+              <em>arXiv Preprint</em>, 2017
+              <br>
+              <a href="https://arxiv.org/pdf/1703.10106.pdf">arXiv</a>
+              /
+              <a href="./pose_rgb_attention_human_action">project page</a>
+              /
+              <a href="https://youtu.be/kGLGgH_VAZw">video</a>
+              /
+              <a href="bib/BaradelWolfMile_PoseAttention_17.bib">bibtex</a>
+            </p>
+            <p>We introduce an attention-based mechanism around hands on RGB videos conditioned on features extracted from human 3D
+              pose.
+              We show state-of-the-art perfomance on the largest dataset and apply transfer learning on smaller
+              datasets.
+            </p>
+          </td>
+        </tr>
+
+        </tbody>
+      </table>
+
+
+      <!-- ######## TEACHING #########-->
+
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td>
+            <heading>Teaching</heading>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+        <tr>
+          <td width="25%"><img src="./images/logo_tf.png" alt="tensorflow" width="160" height="160"></td>
+          <td width="75%" valign="center">
+            <p>
+              <a href="./images/tensorflow_ensai_SID_13_01_17.pdf">
+                <papertitle>Introduction to Deep Learning with Tensorflow</papertitle>
+              </a>
+              <br>
+              <em>January 2017</em>
+              <br>
+              <a href="https://github.com/fabienbaradel/Tensorflow-tutorials/">Github repo</a>
+              /
+              <a href="./docs/tensorflow_ensai_SID_13_01_17.pdf">slides</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+
+      <!-- ######## THANKS #########-->
+
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td>
+            <br>
+            <p align="right">
+              <font size="2">
+                <a href="https://jonbarron.info">Thanks to that guy...</a>
+              </font>
+            </p>
+          </td>
+        </tr>
+      </table>
+      <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 
 
 
-<div class="container">
-<H2 align="center"> Bio</H2>
-  <p>
-I am a first year PhD Candidate at <a href="https://www.insa-lyon.fr"><B>INSA Lyon</B></a> and I am working in the <a
-  href="https://liris.cnrs.fr/?set_language=fr"><B>LIRIS</B> lab</a> (Imagine team).
-My research focus is on deep learning and computer vision. I am particulary interested in applying deep learning for video understanding.
-My PhD topic is "<B><I>Deep learning for human understanding: gestures, activities,
-  poses</I></B>". I have a funding from the <a href="http://liris.cnrs.fr/deepvis/wiki/doku.php?id=start#publications">ANR/NSREC
-    "DeepVision" project</a> which involves 4 parteners: INSA Lyon, LIP6, University of Guelph (Canada) and Simon Fraser University (Canada).
-I am supervised by <a href="http://liris.cnrs.fr/christian.wolf/"><B>Christian Wolf</B></a> and <a
-  href="http://liris.cnrs.fr/julien.mille/"><B>Julien Mille</B></a>.
-<br/> <br/>
-I received an Engineer's degree from <a href="http://www.ensai.fr"><B>ENSAI</B></a> with a major in <I>Big Data - Data
-  Science</I>. I also have a BSc in Economics from Paris Dauphine University and a BSc in Applied Mathematics from Grenoble Alpes University.
-I did a 6 months internship at <a href="http://www.xrce.xerox.com/"><B>Xerox Research Centre
-  Europe</B></a> in Grenoble where I worked on <I>Unsupervised Domain
-  Adaptation</I> for object recognition under the supervision of <a
-  href="http://www.xrce.xerox.com/About-XRCE/People/Boris-Chidlovskii">Boris Chidlovskii</a> and <a
-  href="http://www.xrce.xerox.com/About-XRCE/People/Gabriela-Csurka">Gabriela Csurka</a>.
-  </p>
-<br/> <br/>
-  </div>
 
-<B><U>Research interests:</U></B>
-<br/>
-Deep learning, video understanting, action recognition, reinforcement learning, attention models, domain adaptation, generative model, large scale machine learning.
 
-{% for post in paginator.posts %}
-{% include archive-single.html %}
-{% endfor %}
 
-{% include paginator.html %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </script>
+      <script type="text/javascript">
+      try {
+          var pageTracker = _gat._getTracker("UA-7580334-1");
+          pageTracker._trackPageview();
+          } catch(err) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </script>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
