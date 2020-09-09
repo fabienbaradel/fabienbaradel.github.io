@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.2)  31 MAR 2020 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.2)  9 SEP 2020 10:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,27 +563,27 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 19--19
 
 {/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-Overfull \hbox (6.49359pt too wide) in paragraph at lines 110--119
+Overfull \hbox (6.49359pt too wide) in paragraph at lines 113--122
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  7137 strings out of 493607
  107622 string characters out of 6159223
- 204975 words of memory out of 5000000
+ 204927 words of memory out of 5000000
  11165 multiletter control sequences out of 15000+600000
  38154 words of font info for 32 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 48i,6n,41p,870b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,6n,41p,870b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/l
 ocal/texlive/2019basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/
 texlive/2019basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texli
@@ -592,7 +592,7 @@ ve/2019basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
 sic/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2019basic/te
 xmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2019basic/texmf-d
 ist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (3 pages, 138252 bytes).
+Output written on main.pdf (3 pages, 135989 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
