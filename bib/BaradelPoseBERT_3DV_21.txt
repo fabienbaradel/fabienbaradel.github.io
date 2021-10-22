@@ -1,0 +1,6 @@
+@InProceedings{Baradel_2020_ICLR_cophy,
+author = {Baradel, Fabien and Groueix, Thibault and Weinzaepfel, Philippe and Bregier, Romain and Kalantidis, Yannis and Rogez, Gregory},
+title = {Leveraging MoCap Data for Human Mesh Recovery},
+booktitle = {3DV},
+year = {2021}
+}
