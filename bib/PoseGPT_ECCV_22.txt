@@ -1,0 +1,6 @@
+@inproceedings{posegpt,
+  title={PoseGPT: Quantization-based 3D Human Motion Generation and Forecasting},
+  author={Lucas*, Thomas and Baradel*, Fabien and Weinzaepfel, Philippe and Rogez, Gr\'egory},
+  booktitle={European Conference on Computer Vision ({ECCV})},
+  year={2022}
+}
