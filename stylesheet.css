@@ -1,3 +1,98 @@
+/* =========================
+   PUBLICATIONS LAYOUT
+========================= */
+
+.paper-image {
+    padding: 16px;
+    width: 45%;
+    vertical-align: middle;
+}
+
+.paper-text {
+    padding: 8px;
+    width: 55%;
+    vertical-align: middle;
+}
+
+/* =========================
+   MOBILE VERSION
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    tr {
+        display: block;
+        width: 100%;
+    }
+
+    .paper-image,
+    .paper-text {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .paper-image img {
+        width: 100% !important;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .paper-image {
+        padding-bottom: 0;
+    }
+
+    .paper-text {
+        padding-top: 10px;
+    }
+}
+
+
+/* =========================
+   PAPER ROW
+========================= */
+
+.paper-row {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 768px) {
+
+    .paper-row {
+        display: block;
+        margin-bottom: 40px;   /* BIG spacing between papers */
+        padding-bottom: 30px;
+        border-bottom: 2px solid #eaeaea;
+    }
+
+    .paper-image,
+    .paper-text {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .paper-image {
+        margin-bottom: 14px;
+    }
+
+    .paper-image img {
+        width: 100% !important;
+        max-height: 200px;   /* adjust value */
+        object-fit: contain;
+        border-radius: 12px;
+    }
+
+    .paper-text {
+        padding-top: 0;
+    }
+}
+
 /* latin-ext */
 @font-face {
     font-family: 'Lato';
