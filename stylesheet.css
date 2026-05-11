@@ -14,11 +14,33 @@
     vertical-align: middle;
 }
 
+.hero-affiliation {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.hero-affiliation-separator {
+  display: inline-block;
+}
+
 /* =========================
    MOBILE VERSION
 ========================= */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
+
+  .hero-affiliation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .hero-affiliation-separator {
+    display: none;
+  }
 
     tr {
         display: block;
