@@ -26,6 +26,22 @@
   display: inline-block;
 }
 
+.hero-summary {
+  max-width: 23rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.hero-photo {
+  display: block;
+  width: min(100%, clamp(180px, 24vw, 320px));
+  height: auto;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 /* =========================
    MOBILE VERSION
 ========================= */
@@ -40,6 +56,14 @@
 
   .hero-affiliation-separator {
     display: none;
+  }
+
+  .hero-summary {
+    max-width: 100%;
+  }
+
+  .hero-photo {
+    width: min(100%, clamp(180px, 42vw, 280px));
   }
 
     tr {
